@@ -1,12 +1,11 @@
 {
-    "name": "energia",
-    "short_name": "energia",
+    "name": "Energia Administrator",
+    "short_name": "Energia",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#F5F7FA",
+    "theme_color": "#102A43",
+    "description": "Industrial energy intelligence, compliance, inventory, and decision-support workspace.",
     "prefer_related_applications": false,
     "icons": [
         {

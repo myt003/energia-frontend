@@ -1,5 +1,5 @@
 name: energia
-description: "A new Flutter project."
+description: "Energia energy-compliance and optimization mobile application."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+1
+version: 0.7.0+10
 
 environment:
   sdk: ^3.14.0
@@ -30,11 +30,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  material_ui: ^1.1.0
+  material_ui: ^1.11.1
+  shared_preferences: ^2.5.4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  mobile_scanner: ^7.5.0
+  image_picker: ^1.2.4
+  path_provider: ^2.1.6
+  http: ^1.6.0
+  image_cropper: ^14.0.0
+  http_parser: ^4.1.2
+  file_picker: ^10.3.1
+  qr_flutter: ^4.1.0
+  share_plus: ^12.0.2
 
 dev_dependencies:
   flutter_test:
@@ -57,6 +67,14 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/demo/classroom_energy_bill.png
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterVariable.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:

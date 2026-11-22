@@ -26,6 +26,12 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Energia uses the camera to scan equipment QR codes and capture missing-equipment evidence.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Energia lets you choose an equipment photo when submitting a missing inventory item.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Energia records useful machine sound with guided evidence videos; the selected AI model analyzes sampled images only.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

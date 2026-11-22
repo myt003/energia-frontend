@@ -46,3 +46,7 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Generated test/Gradle artifacts
+/android/build/
+/test/failures/
